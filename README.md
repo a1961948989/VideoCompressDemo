@@ -1,3 +1,4 @@
 # VideoCompressDemo
 Android视频压缩 支持7.0 提供SiliCompressor与七牛压缩两种实现
+
 Android视频拼接 提供mp4parser与七牛视频拼接两种实现
