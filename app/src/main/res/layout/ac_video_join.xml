@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_select_file"
+        android:text="select file"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/btn_start_join"
+        android:text="start_join"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    <Button
+        android:id="@+id/btn_choose_resolution"
+        android:text="choose_resolution"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <Spinner
+        android:id="@+id/sp_resolution"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    <Button
+        android:id="@+id/btn_choose_bitrate"
+        android:text="choose_bitrate"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <Spinner
+        android:id="@+id/sp_bitrate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></Spinner>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="file_in_path:"
+        android:id="@+id/tv_file_path_in"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="file_join_progress:"
+        android:id="@+id/tv_file_join_progress"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="file_out_path:"
+        android:id="@+id/tv_file_path_out"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="join_file_time:"
+        android:id="@+id/tv_join_file_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="join_result:"
+        android:id="@+id/tv_join_result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</LinearLayout>

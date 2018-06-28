@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_select_file"
+        android:text="select file"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/btn_start_compress"
+        android:text="start_compress"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="file_in_path:"
+        android:id="@+id/tv_file_path_in"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="file_in_size:"
+        android:id="@+id/tv_file_size_in"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="file_in_duration:"
+        android:id="@+id/tv_file_duration_in"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:text="file_compress_progress:"
+        android:id="@+id/tv_file_compress_progress"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="file_out_path:"
+        android:id="@+id/tv_file_path_out"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:text="file_out_size:"
+        android:id="@+id/tv_file_size_out"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="compress_file_time:"
+        android:id="@+id/tv_compress_file_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="compress_result:"
+        android:id="@+id/tv_compress_result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</LinearLayout>
